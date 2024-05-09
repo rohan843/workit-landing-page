@@ -9,11 +9,11 @@
 }
 
 :root {
-    -dark-purple: #24053E;
-    -davy-s-grey: #584D62;
-    -eucaplyptus: #44FFA1;
-    -ghost-white: #FCF8FF;
-    -white: #FFFFFF;
+    --dark-purple: #24053E;
+    --davy-s-grey: #584D62;
+    --eucaplyptus: #44FFA1;
+    --ghost-white: #FCF8FF;
+    --white: #FFFFFF;
 }
 
 .heading-l {
@@ -42,4 +42,14 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
+}
+
+.nav-link {
+    font-family: manrope;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--white);
+    text-decoration: underline var(--eucaplyptus);
+    text-underline-offset: 6px;
 }
